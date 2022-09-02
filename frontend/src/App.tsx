@@ -1,13 +1,18 @@
 import Footer from "components/Footer";
+import ListPicker from "components/ListPicker";
 import NavBar from "components/NavBar";
 function App() {
   return (
     <>
       <NavBar />
       <div className="container">
-        <h1 className="text-primary">Amém irmão </h1>
+        <h1 className="text-primary">Relatório Mensal</h1>
       </div>
-      <Footer/>
+      <div className="container">
+          <ListPicker />
+      </div>
+
+      <Footer />
     </>
 
   );
