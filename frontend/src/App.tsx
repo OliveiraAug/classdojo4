@@ -1,19 +1,7 @@
-import Footer from "components/Footer";
-import ListPicker from "components/ListPicker";
-import NavBar from "components/NavBar";
+import Routes from "Routes";
 function App() {
   return (
-    <>
-      <NavBar />
-      <div className="container">
-        <h1 className="text-primary">Relatório Mensal</h1>
-      </div>
-      <div className="container">
-          <ListPicker />
-      </div>
-
-      <Footer />
-    </>
+    <Routes/>
 
   );
 }
