@@ -19,7 +19,7 @@ const ListPicker = () => {
             });
     }, []);
     return (
-        <select className="form-select form-select-sm" aria-label=".form-select-sm example">
+        <select id ="modSelect" className="form-select form-select-sm" aria-label=".form-select-sm example">
             <option selected>Escolha o módulo em questão</option>
             {
                 lpData.modNome?.map(modulo => (
