@@ -6,7 +6,6 @@ const Home = () => {
     return (
         <>
             <NavBar />
-            <body className="padding:0 margin:0 height:100%">
                 <div className="container">
                     <div className="jumbotron">
                         <h1 className="display-4 text-primary">Classdojo4</h1>
@@ -18,7 +17,6 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-            </body>
             <Footer />
         </>
 
